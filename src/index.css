@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-brand-orange: #FF9933;
+  --color-brand-orange-light: #FFB366;
+  --color-brand-green: #138808;
+  --color-brand-green-light: #22C55E;
+  --color-brand-brown: #9a5a18;
+  --color-brand-beige: #fbf5ee;
+  --color-earth-bg: #FCF8F5;
+}
+
+@layer base {
+  body {
+    @apply bg-earth-bg text-slate-800 font-sans antialiased selection:bg-brand-orange/20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfaf6;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom animations */
+@keyframes heart-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+.pulse-heart {
+  animation: heart-pulse 2s infinite ease-in-out;
+}

@@ -1,0 +1,1256 @@
+{
+  "config": {
+    "headline": "One Roti Can Change a Life",
+    "subheading": "Join Ek Roti Foundation in feeding hungry people and supporting needy families across India.",
+    "phone": "+91 95103 66694",
+    "email": "ekrotifoundation@gmail.com",
+    "address": "Plot No-28, Hare Krishna Villa, Near Sky-9, Godadra Moje, Dindoli, Surat, Gujarat 394210, India",
+    "upiId": "paytm-83967280@ptybl",
+    "upiName": "N.Singh"
+  },
+  "stats": {
+    "mealsServed": 124600,
+    "activeVolunteers": 350,
+    "beneficiariesHelped": 45008,
+    "citiesReached": 12
+  },
+  "donationTiers": [
+    {
+      "id": 1,
+      "amount": 250,
+      "personsFed": 5,
+      "icon": "Utensils",
+      "description": "Feeds 5 hungry persons a full warm nutritional meal.",
+      "popular": false
+    },
+    {
+      "id": 2,
+      "amount": 500,
+      "personsFed": 10,
+      "icon": "HeartHandshake",
+      "description": "Feeds 10 persons. Most popular choice among family donors.",
+      "popular": true
+    },
+    {
+      "id": 3,
+      "amount": 1000,
+      "personsFed": 25,
+      "icon": "Users",
+      "description": "Feeds 25 persons. Excellent support for poor neighborhood clusters.",
+      "popular": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Rajesh Sharma",
+      "role": "Monthly Donor",
+      "rating": 5,
+      "text": "Ek Roti Foundation is doing excellent work for needy people. I am proud to support them. Their transparency is incredibly reassuring.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+      "date": "2026-05-18",
+      "isApproved": true
+    },
+    {
+      "id": 2,
+      "name": "Sunita Verma",
+      "role": "Daily Sponsor",
+      "rating": 5,
+      "text": "Serving raw food is one thing, but serving hot, fresh, hygienic rotis directly to poor children is truly commendable.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
+      "date": "2026-06-01",
+      "isApproved": true
+    },
+    {
+      "id": 3,
+      "name": "Amit Patel",
+      "role": "Corporate Donor",
+      "rating": 5,
+      "text": "We sponsored a complete food camp in Dindoli area. The execution, distribution discipline, and pure joy of the elderly beneficiaries were heart-warming.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
+      "date": "2026-06-11",
+      "isApproved": true
+    },
+    {
+      "id": 4,
+      "name": "Pooja Singh",
+      "role": "Volunteering Partner",
+      "rating": 5,
+      "text": "Excellent and dedicated ground team! Joining them as a food server completely modified my outlook on life.",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200",
+      "date": "2026-06-14",
+      "isApproved": true
+    },
+    {
+      "id": 5,
+      "name": "Mohan Yadav",
+      "role": "Local Supporter",
+      "rating": 4,
+      "text": "I regularly see their customized vans in Godadra area. Every single plate is distributed with utmost respect and humility.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
+      "date": "2026-06-18",
+      "isApproved": true
+    },
+    {
+      "id": 6,
+      "name": "Neha Gupta",
+      "role": "Donor",
+      "rating": 5,
+      "text": "A highly trusted NGO in Surat. Even small contributions making an emotional impact.",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200",
+      "date": "2026-06-19",
+      "isApproved": true
+    },
+    {
+      "id": 7,
+      "name": "Suresh Kumar",
+      "role": "Social Worker",
+      "rating": 5,
+      "text": "They helped thousands of migrants and underprivileged families during difficult rains. Purely self-less service.",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=200",
+      "date": "2026-06-20",
+      "isApproved": true
+    },
+    {
+      "id": 8,
+      "name": "Kavita Joshi",
+      "role": "Youth Volunteer",
+      "rating": 5,
+      "text": "This foundation gives us the platform to give back to Indian society. Feeding poor families is highly spiritual.",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=200",
+      "date": "2026-06-20",
+      "isApproved": true
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "title": "Surat Flood Relief Feeding",
+      "location": "Surat, Gujarat",
+      "date": "August 12, 2025",
+      "category": "Disaster Relief",
+      "description": "During the devastating Surat seasonal floods, Ek Roti Foundation mobilized instantly, preparing and distributing warm rice, rotis, and pure water packets to more than 1,000 helpless citizens trapped near the Tapi river bank.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1000+ Families Fed"
+    },
+    {
+      "id": 2,
+      "title": "Migrant Highway Support Drives",
+      "location": "Godadra Highway, Surat",
+      "date": "May 25, 2025",
+      "category": "Daily Feeding",
+      "description": "Distributed emergency high-energy dry ration kits, water bottle crates, and freshly baked rotis to home-bound migrant workers travelling on foot and by trucks during extreme summer waves.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "750+ Migrants Supported"
+    },
+    {
+      "id": 3,
+      "title": "Elderly Rains Survival Cover",
+      "location": "Dindoli, Surat",
+      "date": "July 04, 2025",
+      "category": "Elderly Support",
+      "description": "Provided fresh meals, heavy rain jackets, and emergency medical kits to underprivileged senior citizens living in hazardous thatch roofs during heavy Gujarat monsoon downpours.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "300+ Elders Shielded"
+    },
+    {
+      "id": 4,
+      "title": "Slum Children Nutritional Camp",
+      "location": "Hare Krishna Villa Area, Surat",
+      "date": "September 15, 2025",
+      "category": "Children Wellness",
+      "description": "Organized a weekend nourishment carnival with interactive games, pure quality meals, fresh fruit distribution, and basic education supplies for municipal neighborhood children.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "500+ Children Nourished"
+    },
+    {
+      "id": 5,
+      "title": "Holi Festival Mega Food Camp",
+      "location": "Near Sky-9, Surat",
+      "date": "March 14, 2025",
+      "category": "Festival Camp",
+      "description": "Shared the pure spirits of the colors festival by cooking a large batch of special puri-sabji, sweets, and rotis for homeless street-dwellers and poor children around Surat.",
+      "image": "https://images.unsplash.com/photo-1501516069922-a9982bd6f3bd?q=80&w=400&auto=format&fit=crop",
+      "impact": "1200+ Festival Smiles"
+    },
+    {
+      "id": 6,
+      "title": "Dry Ration Kits to Widows & Families",
+      "location": "Bardoli Rural, Gujarat",
+      "date": "November 21, 2025",
+      "category": "Daily Feeding",
+      "description": "Distributed customized premium monthly dry grocer ration kits (including wheat flour, pulses, cooking oil, and salt) to underprivileged widows, ensuring long-term family survival.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "450+ Dry Kits Distributed"
+    },
+    {
+      "id": 7,
+      "title": "Festival Camp Event - Chapter 7",
+      "location": "Chennai, Tamil Nadu",
+      "date": "Aug 22, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Chennai, Tamil Nadu. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1007)"
+    },
+    {
+      "id": 8,
+      "title": "Elderly Support Event - Chapter 8",
+      "location": "Hyderabad, Telangana",
+      "date": "Sep 01, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Hyderabad, Telangana. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1008)"
+    },
+    {
+      "id": 9,
+      "title": "Children Wellness Event - Chapter 9",
+      "location": "Jaipur, Rajasthan",
+      "date": "Oct 08, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Jaipur, Rajasthan. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1009)"
+    },
+    {
+      "id": 10,
+      "title": "Disaster Relief Event - Chapter 10",
+      "location": "Lucknow, Uttar Pradesh",
+      "date": "Nov 15, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Lucknow, Uttar Pradesh. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1010)"
+    },
+    {
+      "id": 11,
+      "title": "Daily Feeding Event - Chapter 11",
+      "location": "Patna, Bihar",
+      "date": "Dec 22, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Patna, Bihar. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1011)"
+    },
+    {
+      "id": 12,
+      "title": "Festival Camp Event - Chapter 12",
+      "location": "Bhopal, Madhya Pradesh",
+      "date": "Jan 01, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhopal, Madhya Pradesh. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1012)"
+    },
+    {
+      "id": 13,
+      "title": "Elderly Support Event - Chapter 13",
+      "location": "Ranchi, Jharkhand",
+      "date": "Feb 08, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ranchi, Jharkhand. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1013)"
+    },
+    {
+      "id": 14,
+      "title": "Children Wellness Event - Chapter 14",
+      "location": "Guwahati, Assam",
+      "date": "Mar 15, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Guwahati, Assam. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1014)"
+    },
+    {
+      "id": 15,
+      "title": "Disaster Relief Event - Chapter 15",
+      "location": "Bhubaneswar, Odisha",
+      "date": "Apr 22, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhubaneswar, Odisha. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1015)"
+    },
+    {
+      "id": 16,
+      "title": "Daily Feeding Event - Chapter 16",
+      "location": "Dindoli, Surat",
+      "date": "May 01, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Dindoli, Surat. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1016)"
+    },
+    {
+      "id": 17,
+      "title": "Festival Camp Event - Chapter 17",
+      "location": "Godadra, Surat",
+      "date": "Jun 08, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Godadra, Surat. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1017)"
+    },
+    {
+      "id": 18,
+      "title": "Elderly Support Event - Chapter 18",
+      "location": "Bardoli, Gujarat",
+      "date": "Jul 15, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bardoli, Gujarat. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1018)"
+    },
+    {
+      "id": 19,
+      "title": "Children Wellness Event - Chapter 19",
+      "location": "Vapi, Gujarat",
+      "date": "Aug 22, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Vapi, Gujarat. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1019)"
+    },
+    {
+      "id": 20,
+      "title": "Disaster Relief Event - Chapter 20",
+      "location": "Surat, Gujarat",
+      "date": "Sep 01, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Surat, Gujarat. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1020)"
+    },
+    {
+      "id": 21,
+      "title": "Daily Feeding Event - Chapter 21",
+      "location": "Ahmedabad, Gujarat",
+      "date": "Oct 08, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ahmedabad, Gujarat. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1021)"
+    },
+    {
+      "id": 22,
+      "title": "Festival Camp Event - Chapter 22",
+      "location": "Mumbai, Maharashtra",
+      "date": "Nov 15, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Mumbai, Maharashtra. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1022)"
+    },
+    {
+      "id": 23,
+      "title": "Elderly Support Event - Chapter 23",
+      "location": "Delhi, NCR",
+      "date": "Dec 22, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Delhi, NCR. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1023)"
+    },
+    {
+      "id": 24,
+      "title": "Children Wellness Event - Chapter 24",
+      "location": "Pune, Maharashtra",
+      "date": "Jan 01, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Pune, Maharashtra. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1024)"
+    },
+    {
+      "id": 25,
+      "title": "Disaster Relief Event - Chapter 25",
+      "location": "Kolkata, West Bengal",
+      "date": "Feb 08, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Kolkata, West Bengal. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1025)"
+    },
+    {
+      "id": 26,
+      "title": "Daily Feeding Event - Chapter 26",
+      "location": "Bengaluru, Karnataka",
+      "date": "Mar 15, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bengaluru, Karnataka. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1026)"
+    },
+    {
+      "id": 27,
+      "title": "Festival Camp Event - Chapter 27",
+      "location": "Chennai, Tamil Nadu",
+      "date": "Apr 22, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Chennai, Tamil Nadu. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1027)"
+    },
+    {
+      "id": 28,
+      "title": "Elderly Support Event - Chapter 28",
+      "location": "Hyderabad, Telangana",
+      "date": "May 01, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Hyderabad, Telangana. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1028)"
+    },
+    {
+      "id": 29,
+      "title": "Children Wellness Event - Chapter 29",
+      "location": "Jaipur, Rajasthan",
+      "date": "Jun 08, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Jaipur, Rajasthan. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1029)"
+    },
+    {
+      "id": 30,
+      "title": "Disaster Relief Event - Chapter 30",
+      "location": "Lucknow, Uttar Pradesh",
+      "date": "Jul 15, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Lucknow, Uttar Pradesh. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1030)"
+    },
+    {
+      "id": 31,
+      "title": "Daily Feeding Event - Chapter 31",
+      "location": "Patna, Bihar",
+      "date": "Aug 22, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Patna, Bihar. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1031)"
+    },
+    {
+      "id": 32,
+      "title": "Festival Camp Event - Chapter 32",
+      "location": "Bhopal, Madhya Pradesh",
+      "date": "Sep 01, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhopal, Madhya Pradesh. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1032)"
+    },
+    {
+      "id": 33,
+      "title": "Elderly Support Event - Chapter 33",
+      "location": "Ranchi, Jharkhand",
+      "date": "Oct 08, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ranchi, Jharkhand. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1033)"
+    },
+    {
+      "id": 34,
+      "title": "Children Wellness Event - Chapter 34",
+      "location": "Guwahati, Assam",
+      "date": "Nov 15, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Guwahati, Assam. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1034)"
+    },
+    {
+      "id": 35,
+      "title": "Disaster Relief Event - Chapter 35",
+      "location": "Bhubaneswar, Odisha",
+      "date": "Dec 22, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhubaneswar, Odisha. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1035)"
+    },
+    {
+      "id": 36,
+      "title": "Daily Feeding Event - Chapter 36",
+      "location": "Dindoli, Surat",
+      "date": "Jan 01, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Dindoli, Surat. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1036)"
+    },
+    {
+      "id": 37,
+      "title": "Festival Camp Event - Chapter 37",
+      "location": "Godadra, Surat",
+      "date": "Feb 08, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Godadra, Surat. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1037)"
+    },
+    {
+      "id": 38,
+      "title": "Elderly Support Event - Chapter 38",
+      "location": "Bardoli, Gujarat",
+      "date": "Mar 15, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bardoli, Gujarat. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1038)"
+    },
+    {
+      "id": 39,
+      "title": "Children Wellness Event - Chapter 39",
+      "location": "Vapi, Gujarat",
+      "date": "Apr 22, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Vapi, Gujarat. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1039)"
+    },
+    {
+      "id": 40,
+      "title": "Disaster Relief Event - Chapter 40",
+      "location": "Surat, Gujarat",
+      "date": "May 01, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Surat, Gujarat. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1040)"
+    },
+    {
+      "id": 41,
+      "title": "Daily Feeding Event - Chapter 41",
+      "location": "Ahmedabad, Gujarat",
+      "date": "Jun 08, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ahmedabad, Gujarat. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1041)"
+    },
+    {
+      "id": 42,
+      "title": "Festival Camp Event - Chapter 42",
+      "location": "Mumbai, Maharashtra",
+      "date": "Jul 15, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Mumbai, Maharashtra. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1042)"
+    },
+    {
+      "id": 43,
+      "title": "Elderly Support Event - Chapter 43",
+      "location": "Delhi, NCR",
+      "date": "Aug 22, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Delhi, NCR. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1043)"
+    },
+    {
+      "id": 44,
+      "title": "Children Wellness Event - Chapter 44",
+      "location": "Pune, Maharashtra",
+      "date": "Sep 01, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Pune, Maharashtra. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1044)"
+    },
+    {
+      "id": 45,
+      "title": "Disaster Relief Event - Chapter 45",
+      "location": "Kolkata, West Bengal",
+      "date": "Oct 08, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Kolkata, West Bengal. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1045)"
+    },
+    {
+      "id": 46,
+      "title": "Daily Feeding Event - Chapter 46",
+      "location": "Bengaluru, Karnataka",
+      "date": "Nov 15, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bengaluru, Karnataka. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1046)"
+    },
+    {
+      "id": 47,
+      "title": "Festival Camp Event - Chapter 47",
+      "location": "Chennai, Tamil Nadu",
+      "date": "Dec 22, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Chennai, Tamil Nadu. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1047)"
+    },
+    {
+      "id": 48,
+      "title": "Elderly Support Event - Chapter 48",
+      "location": "Hyderabad, Telangana",
+      "date": "Jan 01, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Hyderabad, Telangana. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1048)"
+    },
+    {
+      "id": 49,
+      "title": "Children Wellness Event - Chapter 49",
+      "location": "Jaipur, Rajasthan",
+      "date": "Feb 08, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Jaipur, Rajasthan. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1049)"
+    },
+    {
+      "id": 50,
+      "title": "Disaster Relief Event - Chapter 50",
+      "location": "Lucknow, Uttar Pradesh",
+      "date": "Mar 15, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Lucknow, Uttar Pradesh. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1050)"
+    },
+    {
+      "id": 51,
+      "title": "Daily Feeding Event - Chapter 51",
+      "location": "Patna, Bihar",
+      "date": "Apr 22, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Patna, Bihar. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1051)"
+    },
+    {
+      "id": 52,
+      "title": "Festival Camp Event - Chapter 52",
+      "location": "Bhopal, Madhya Pradesh",
+      "date": "May 01, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhopal, Madhya Pradesh. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1052)"
+    },
+    {
+      "id": 53,
+      "title": "Elderly Support Event - Chapter 53",
+      "location": "Ranchi, Jharkhand",
+      "date": "Jun 08, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ranchi, Jharkhand. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1053)"
+    },
+    {
+      "id": 54,
+      "title": "Children Wellness Event - Chapter 54",
+      "location": "Guwahati, Assam",
+      "date": "Jul 15, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Guwahati, Assam. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1054)"
+    },
+    {
+      "id": 55,
+      "title": "Disaster Relief Event - Chapter 55",
+      "location": "Bhubaneswar, Odisha",
+      "date": "Aug 22, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhubaneswar, Odisha. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1055)"
+    },
+    {
+      "id": 56,
+      "title": "Daily Feeding Event - Chapter 56",
+      "location": "Dindoli, Surat",
+      "date": "Sep 01, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Dindoli, Surat. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1056)"
+    },
+    {
+      "id": 57,
+      "title": "Festival Camp Event - Chapter 57",
+      "location": "Godadra, Surat",
+      "date": "Oct 08, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Godadra, Surat. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1057)"
+    },
+    {
+      "id": 58,
+      "title": "Elderly Support Event - Chapter 58",
+      "location": "Bardoli, Gujarat",
+      "date": "Nov 15, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bardoli, Gujarat. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1058)"
+    },
+    {
+      "id": 59,
+      "title": "Children Wellness Event - Chapter 59",
+      "location": "Vapi, Gujarat",
+      "date": "Dec 22, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Vapi, Gujarat. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1059)"
+    },
+    {
+      "id": 60,
+      "title": "Disaster Relief Event - Chapter 60",
+      "location": "Surat, Gujarat",
+      "date": "Jan 01, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Surat, Gujarat. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1060)"
+    },
+    {
+      "id": 61,
+      "title": "Daily Feeding Event - Chapter 61",
+      "location": "Ahmedabad, Gujarat",
+      "date": "Feb 08, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ahmedabad, Gujarat. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1061)"
+    },
+    {
+      "id": 62,
+      "title": "Festival Camp Event - Chapter 62",
+      "location": "Mumbai, Maharashtra",
+      "date": "Mar 15, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Mumbai, Maharashtra. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1062)"
+    },
+    {
+      "id": 63,
+      "title": "Elderly Support Event - Chapter 63",
+      "location": "Delhi, NCR",
+      "date": "Apr 22, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Delhi, NCR. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1063)"
+    },
+    {
+      "id": 64,
+      "title": "Children Wellness Event - Chapter 64",
+      "location": "Pune, Maharashtra",
+      "date": "May 01, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Pune, Maharashtra. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1064)"
+    },
+    {
+      "id": 65,
+      "title": "Disaster Relief Event - Chapter 65",
+      "location": "Kolkata, West Bengal",
+      "date": "Jun 08, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Kolkata, West Bengal. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1065)"
+    },
+    {
+      "id": 66,
+      "title": "Daily Feeding Event - Chapter 66",
+      "location": "Bengaluru, Karnataka",
+      "date": "Jul 15, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bengaluru, Karnataka. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1066)"
+    },
+    {
+      "id": 67,
+      "title": "Festival Camp Event - Chapter 67",
+      "location": "Chennai, Tamil Nadu",
+      "date": "Aug 22, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Chennai, Tamil Nadu. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1067)"
+    },
+    {
+      "id": 68,
+      "title": "Elderly Support Event - Chapter 68",
+      "location": "Hyderabad, Telangana",
+      "date": "Sep 01, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Hyderabad, Telangana. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1068)"
+    },
+    {
+      "id": 69,
+      "title": "Children Wellness Event - Chapter 69",
+      "location": "Jaipur, Rajasthan",
+      "date": "Oct 08, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Jaipur, Rajasthan. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1069)"
+    },
+    {
+      "id": 70,
+      "title": "Disaster Relief Event - Chapter 70",
+      "location": "Lucknow, Uttar Pradesh",
+      "date": "Nov 15, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Lucknow, Uttar Pradesh. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1070)"
+    },
+    {
+      "id": 71,
+      "title": "Daily Feeding Event - Chapter 71",
+      "location": "Patna, Bihar",
+      "date": "Dec 22, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Patna, Bihar. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1071)"
+    },
+    {
+      "id": 72,
+      "title": "Festival Camp Event - Chapter 72",
+      "location": "Bhopal, Madhya Pradesh",
+      "date": "Jan 01, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhopal, Madhya Pradesh. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1072)"
+    },
+    {
+      "id": 73,
+      "title": "Elderly Support Event - Chapter 73",
+      "location": "Ranchi, Jharkhand",
+      "date": "Feb 08, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ranchi, Jharkhand. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1073)"
+    },
+    {
+      "id": 74,
+      "title": "Children Wellness Event - Chapter 74",
+      "location": "Guwahati, Assam",
+      "date": "Mar 15, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Guwahati, Assam. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1074)"
+    },
+    {
+      "id": 75,
+      "title": "Disaster Relief Event - Chapter 75",
+      "location": "Bhubaneswar, Odisha",
+      "date": "Apr 22, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhubaneswar, Odisha. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1075)"
+    },
+    {
+      "id": 76,
+      "title": "Daily Feeding Event - Chapter 76",
+      "location": "Dindoli, Surat",
+      "date": "May 01, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Dindoli, Surat. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1076)"
+    },
+    {
+      "id": 77,
+      "title": "Festival Camp Event - Chapter 77",
+      "location": "Godadra, Surat",
+      "date": "Jun 08, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Godadra, Surat. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1077)"
+    },
+    {
+      "id": 78,
+      "title": "Elderly Support Event - Chapter 78",
+      "location": "Bardoli, Gujarat",
+      "date": "Jul 15, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bardoli, Gujarat. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1078)"
+    },
+    {
+      "id": 79,
+      "title": "Children Wellness Event - Chapter 79",
+      "location": "Vapi, Gujarat",
+      "date": "Aug 22, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Vapi, Gujarat. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1079)"
+    },
+    {
+      "id": 80,
+      "title": "Disaster Relief Event - Chapter 80",
+      "location": "Surat, Gujarat",
+      "date": "Sep 01, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Surat, Gujarat. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1080)"
+    },
+    {
+      "id": 81,
+      "title": "Daily Feeding Event - Chapter 81",
+      "location": "Ahmedabad, Gujarat",
+      "date": "Oct 08, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ahmedabad, Gujarat. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1081)"
+    },
+    {
+      "id": 82,
+      "title": "Festival Camp Event - Chapter 82",
+      "location": "Mumbai, Maharashtra",
+      "date": "Nov 15, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Mumbai, Maharashtra. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1082)"
+    },
+    {
+      "id": 83,
+      "title": "Elderly Support Event - Chapter 83",
+      "location": "Delhi, NCR",
+      "date": "Dec 22, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Delhi, NCR. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1083)"
+    },
+    {
+      "id": 84,
+      "title": "Children Wellness Event - Chapter 84",
+      "location": "Pune, Maharashtra",
+      "date": "Jan 01, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Pune, Maharashtra. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1084)"
+    },
+    {
+      "id": 85,
+      "title": "Disaster Relief Event - Chapter 85",
+      "location": "Kolkata, West Bengal",
+      "date": "Feb 08, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Kolkata, West Bengal. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1085)"
+    },
+    {
+      "id": 86,
+      "title": "Daily Feeding Event - Chapter 86",
+      "location": "Bengaluru, Karnataka",
+      "date": "Mar 15, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bengaluru, Karnataka. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1086)"
+    },
+    {
+      "id": 87,
+      "title": "Festival Camp Event - Chapter 87",
+      "location": "Chennai, Tamil Nadu",
+      "date": "Apr 22, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Chennai, Tamil Nadu. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1087)"
+    },
+    {
+      "id": 88,
+      "title": "Elderly Support Event - Chapter 88",
+      "location": "Hyderabad, Telangana",
+      "date": "May 01, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Hyderabad, Telangana. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1088)"
+    },
+    {
+      "id": 89,
+      "title": "Children Wellness Event - Chapter 89",
+      "location": "Jaipur, Rajasthan",
+      "date": "Jun 08, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Jaipur, Rajasthan. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1089)"
+    },
+    {
+      "id": 90,
+      "title": "Disaster Relief Event - Chapter 90",
+      "location": "Lucknow, Uttar Pradesh",
+      "date": "Jul 15, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Lucknow, Uttar Pradesh. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1090)"
+    },
+    {
+      "id": 91,
+      "title": "Daily Feeding Event - Chapter 91",
+      "location": "Patna, Bihar",
+      "date": "Aug 22, 2026",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Patna, Bihar. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1091)"
+    },
+    {
+      "id": 92,
+      "title": "Festival Camp Event - Chapter 92",
+      "location": "Bhopal, Madhya Pradesh",
+      "date": "Sep 01, 2025",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhopal, Madhya Pradesh. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1092)"
+    },
+    {
+      "id": 93,
+      "title": "Elderly Support Event - Chapter 93",
+      "location": "Ranchi, Jharkhand",
+      "date": "Oct 08, 2026",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Ranchi, Jharkhand. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1093)"
+    },
+    {
+      "id": 94,
+      "title": "Children Wellness Event - Chapter 94",
+      "location": "Guwahati, Assam",
+      "date": "Nov 15, 2025",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Guwahati, Assam. Launched a focused iron & protein rich meal distribution campaign for underprivileged pregnant women in fringe hamlets to ensure nutritional security for mothers and future babies. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "180+ Pregnant Women Supported (Batch #1094)"
+    },
+    {
+      "id": 95,
+      "title": "Disaster Relief Event - Chapter 95",
+      "location": "Bhubaneswar, Odisha",
+      "date": "Dec 22, 2026",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bhubaneswar, Odisha. Our dedicated volunteers braved severe torrential downpours to distribute hot chapatis, dal, and fresh vegetables to families stranded in raw municipal shelters. Many had not eaten a warm meal in over 48 hours. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "850+ Warm Meals distributed (Batch #1095)"
+    },
+    {
+      "id": 96,
+      "title": "Daily Feeding Event - Chapter 96",
+      "location": "Dindoli, Surat",
+      "date": "Jan 01, 2025",
+      "category": "Daily Feeding",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Dindoli, Surat. Organized a wholesome nutrition camp providing fortified wheat chapatis, sweet kheer, and fruit bowls to impoverished children from local slums, boosting their energy and morale. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "400+ Slum Children Nourished (Batch #1096)"
+    },
+    {
+      "id": 97,
+      "title": "Festival Camp Event - Chapter 97",
+      "location": "Godadra, Surat",
+      "date": "Feb 08, 2026",
+      "category": "Festival Camp",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Godadra, Surat. Identified and supported neglected senior citizens living alone in unhygienic shanties. Distributed fresh, soft high-nutrition food kits tailored to their medical needs, alongside basic medicines. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=400&auto=format&fit=crop",
+      "impact": "250+ Senior Citizens Assisted (Batch #1097)"
+    },
+    {
+      "id": 98,
+      "title": "Elderly Support Event - Chapter 98",
+      "location": "Bardoli, Gujarat",
+      "date": "Mar 15, 2025",
+      "category": "Elderly Support",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Bardoli, Gujarat. Following sudden local flooding, our emergency kitchen sprang into action, mass-producing packed chapatis with pickle and pure water satchels for remote, mud-clogged peripheral settlements. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,500+ Emergency Ration Bundles (Batch #1098)"
+    },
+    {
+      "id": 99,
+      "title": "Children Wellness Event - Chapter 99",
+      "location": "Vapi, Gujarat",
+      "date": "Apr 22, 2026",
+      "category": "Children Wellness",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Vapi, Gujarat. Brought festive smiles and joy during Diwali by organizing community kitchen setups in backward blocks. Served premium grains, dry sweets, and pure ghee chapatis to make everyone feel remembered. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop",
+      "impact": "1,200+ Festival Thalis Served (Batch #1099)"
+    },
+    {
+      "id": 100,
+      "title": "Disaster Relief Event - Chapter 100",
+      "location": "Surat, Gujarat",
+      "date": "May 01, 2025",
+      "category": "Disaster Relief",
+      "description": "Ek Roti Foundation organized a dedicated community service mission in Surat, Gujarat. Set up our custom mobile kitchen at active low-income construction intersections to feed daily wage workers, rickshaw-pullers, and seasonal migrant laborers who skip meals to save minor coins. Every volunteer went above and beyond to spread happiness and relief.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400&auto=format&fit=crop",
+      "impact": "600+ Daily Wage Earners Fed (Batch #1100)"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": 1,
+      "fullName": "Vijay Randeria",
+      "phone": "+91 98251 11223",
+      "email": "vijay.r@gmail.com",
+      "city": "Surat",
+      "message": "Excited to assist with the upcoming weekend community kitchen drive in Dindoli district.",
+      "date": "2026-06-18",
+      "status": "Approved"
+    },
+    {
+      "id": 2,
+      "fullName": "Meera Gokhale",
+      "phone": "+91 97240 12345",
+      "email": "meera.g@hotmail.com",
+      "city": "Ahmedabad",
+      "message": "I want to help organize digital fund drives and support on-ground kitchen management.",
+      "date": "2026-06-19",
+      "status": "Pending"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Smiles over Warm Plates",
+      "category": "Kids",
+      "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=600",
+      "description": "Young school children happily enjoying fresh, hygienic roti and vegetable thali distributed in Surat."
+    },
+    {
+      "id": 2,
+      "title": "Respecting the Elders",
+      "category": "Elderly",
+      "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=600",
+      "description": "An elderly mother receiving warm daily meals with deep gratitude during hard seasonal rains."
+    },
+    {
+      "id": 3,
+      "title": "Our Dynamic Ground Kitchen",
+      "category": "Kitchen",
+      "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600",
+      "description": "Volunteers preparing fresh, steaming hot batches of wheat chapatis at our clean central kitchen setup."
+    },
+    {
+      "id": 4,
+      "title": "Community Distribution Drive",
+      "category": "Distribution",
+      "url": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=600",
+      "description": "Mega relief food camp organized on the outskirts of Godadra to comfort seasonal migrant labors."
+    },
+    {
+      "id": 5,
+      "title": "Volunteers: The Moving Spirits",
+      "category": "Volunteers",
+      "url": "https://images.unsplash.com/photo-1501516069922-a9982bd6f3bd?q=80&w=600",
+      "description": "The heartbeat of Ek Roti Foundation - happy young volunteers packing chapatis and grain kits."
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Dindoli Slum Food Drive",
+      "date": "2026-06-25",
+      "time": "11:00 AM - 02:00 PM",
+      "location": "Hare Krishna Villa Sector, Dindoli, Surat",
+      "description": "Daily feeding drive targeting children, widows, and physically challenged individuals with nutrition packets.",
+      "image": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400",
+      "status": "Upcoming"
+    },
+    {
+      "id": 2,
+      "title": "Godadra Highway Migrant Support",
+      "date": "2026-06-29",
+      "time": "09:00 AM - 04:00 PM",
+      "location": "Near Sky-9, Surat Highway Edge",
+      "description": "Setting up hydration and dry grain food camp to feed daily commuters, helpers, and manual pushcart operators.",
+      "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=400",
+      "status": "Upcoming"
+    },
+    {
+      "id": 3,
+      "title": "Surat Flood Pre-Relief Camp",
+      "date": "2026-06-15",
+      "time": "10:00 AM - 03:00 PM",
+      "location": "Tapi River Lowlands, Surat",
+      "description": "Distributed pre-monsoon secure survival bags and dry grains items to riverbank settlements.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=400",
+      "status": "Completed"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "ROTIPAY_34385400",
+      "amount": 250,
+      "name": "Praveen Pareek",
+      "email": "praveenrajeshpurohit@gmail.com",
+      "phone": "8000041625",
+      "status": "SUCCESS",
+      "date": "2026-06-21T06:40:14.623Z"
+    },
+    {
+      "id": "ROTIPAY_34816591",
+      "amount": 250,
+      "name": "Praveen Pareek",
+      "email": "praveenrajeshpurohit@gmail.com",
+      "phone": "8000041625",
+      "status": "SUCCESS",
+      "date": "2026-06-21T06:37:09.243Z"
+    },
+    {
+      "id": "ROTIPAY_49897490",
+      "amount": 250,
+      "name": "Nau",
+      "email": "praveenrajeshpurohit@gmail.com",
+      "phone": "8000041625",
+      "status": "SUCCESS",
+      "date": "2026-06-21T06:35:19.356Z"
+    },
+    {
+      "id": "ROTIPAY_73902329",
+      "amount": 250,
+      "name": "Nau",
+      "email": "praveenrajeshpurohit@gmail.com",
+      "phone": "8000041625",
+      "status": "SUCCESS",
+      "date": "2026-06-21T06:34:20.775Z"
+    }
+  ]
+}

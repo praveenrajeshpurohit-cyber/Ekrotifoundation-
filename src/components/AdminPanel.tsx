@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { 
   ShieldCheck, ShieldAlert, KeyRound, Building2, UserCircle, 
   Utensils, Files, Image, Library, Settings, RefreshCw, 
-  Trash2, HeartHandshake, UserPlus, CirclePlus, Sparkles, Check, CheckCircle
+  Trash2, HeartHandshake, UserPlus, CirclePlus, Sparkles, Check, CheckCircle, Save
 } from "lucide-react";
 import { 
   SiteConfig, SiteStats, DonationTier, Review, 
@@ -52,7 +52,7 @@ export default function AdminPanel({
   const [loginError, setLoginError] = useState("");
 
   // Admin section navigation status
-  const [activeAdminTab, setActiveAdminTab] = useState<"site" | "tiers" | "stories" | "volunteers" | "reviews" | "gallery" | "transactions">("site");
+  const [activeAdminTab, setActiveAdminTab] = useState<"site" | "tiers" | "stories" | "volunteers" | "reviews" | "gallery" | "paytm" | "transactions">("site");
 
   // Site Config form parameters
   const [headline, setHeadline] = useState(config.headline);
@@ -60,8 +60,8 @@ export default function AdminPanel({
   const [phone, setPhone] = useState(config.phone);
   const [email, setEmail] = useState(config.email);
   const [address, setAddress] = useState(config.address);
-  const [upiId, setUpiId] = useState(config.upiId || "8319692429@paytm");
-  const [upiName, setUpiName] = useState(config.upiName || "Praveen Rajesh Purohit");
+  const [upiId, setUpiId] = useState(config.upiId || "paytm-83967280@ptybl");
+  const [upiName, setUpiName] = useState(config.upiName || "N.Singh");
   const [customQrImage, setCustomQrImage] = useState(config.customQrImage || "");
   const [dragActive, setDragActive] = useState(false);
 
@@ -74,14 +74,23 @@ export default function AdminPanel({
   const [teamImage3, setTeamImage3] = useState(config.teamImage3 || "");
   const [teamImage4, setTeamImage4] = useState(config.teamImage4 || "");
 
+  // Paytm Credentials variables
+  const [paytmMerchantId, setPaytmMerchantId] = useState(config.paytmMerchantId || "zEGDie39558786797357");
+  const [paytmMerchantKey, setPaytmMerchantKey] = useState(config.paytmMerchantKey || "");
+  const [paytmWebsite, setPaytmWebsite] = useState(config.paytmWebsite || "DEFAULT");
+  const [paytmIndustryType, setPaytmIndustryType] = useState(config.paytmIndustryType || "Retail");
+  const [paytmChannelId, setPaytmChannelId] = useState(config.paytmChannelId || "WEB");
+  const [paytmGatewayState, setPaytmGatewayState] = useState<"active" | "inactive">(config.paytmGatewayState || "active");
+  const [paytmPaymentLink, setPaytmPaymentLink] = useState(config.paytmPaymentLink || "");
+
   useEffect(() => {
     if (config.headline !== undefined) setHeadline(config.headline);
     if (config.subheading !== undefined) setSubheading(config.subheading);
     if (config.phone !== undefined) setPhone(config.phone);
     if (config.email !== undefined) setEmail(config.email);
     if (config.address !== undefined) setAddress(config.address);
-    if (config.upiId !== undefined) setUpiId(config.upiId || "8319692429@paytm");
-    if (config.upiName !== undefined) setUpiName(config.upiName || "Praveen Rajesh Purohit");
+    if (config.upiId !== undefined) setUpiId(config.upiId || "paytm-83967280@ptybl");
+    if (config.upiName !== undefined) setUpiName(config.upiName || "N.Singh");
     if (config.customQrImage !== undefined) setCustomQrImage(config.customQrImage || "");
     if (config.heroImage !== undefined) setHeroImage(config.heroImage || "");
     if (config.introImage !== undefined) setIntroImage(config.introImage || "");
@@ -90,6 +99,13 @@ export default function AdminPanel({
     if (config.teamImage2 !== undefined) setTeamImage2(config.teamImage2 || "");
     if (config.teamImage3 !== undefined) setTeamImage3(config.teamImage3 || "");
     if (config.teamImage4 !== undefined) setTeamImage4(config.teamImage4 || "");
+    if (config.paytmMerchantId !== undefined) setPaytmMerchantId(config.paytmMerchantId || "zEGDie39558786797357");
+    if (config.paytmMerchantKey !== undefined) setPaytmMerchantKey(config.paytmMerchantKey || "");
+    if (config.paytmWebsite !== undefined) setPaytmWebsite(config.paytmWebsite || "DEFAULT");
+    if (config.paytmIndustryType !== undefined) setPaytmIndustryType(config.paytmIndustryType || "Retail");
+    if (config.paytmChannelId !== undefined) setPaytmChannelId(config.paytmChannelId || "WEB");
+    if (config.paytmGatewayState !== undefined) setPaytmGatewayState(config.paytmGatewayState || "active");
+    if (config.paytmPaymentLink !== undefined) setPaytmPaymentLink(config.paytmPaymentLink || "");
   }, [config]);
 
   // Statistics inputs
@@ -152,7 +168,9 @@ export default function AdminPanel({
     try {
       await onUpdateConfig({ 
         headline, subheading, phone, email, address, upiId, upiName, customQrImage,
-        heroImage, introImage, aboutImage, teamImage1, teamImage2, teamImage3, teamImage4 
+        heroImage, introImage, aboutImage, teamImage1, teamImage2, teamImage3, teamImage4,
+        paytmMerchantId, paytmMerchantKey, paytmWebsite, paytmIndustryType, paytmChannelId, paytmGatewayState,
+        paytmPaymentLink
       });
       await onUpdateStats({ mealsServed, activeVolunteers, beneficiariesHelped, citiesReached });
       setSavesLog("Site configuration saved successfully.");
@@ -405,6 +423,16 @@ export default function AdminPanel({
           </button>
 
           <button
+            onClick={() => setActiveAdminTab("paytm")}
+            className={`w-full text-left px-4 py-3 rounded-xl font-medium text-xs tracking-wide uppercase transition-colors flex items-center space-x-3 cursor-pointer flex-shrink-0 ${
+              activeAdminTab === "paytm" ? "bg-orange-50 text-brand-orange font-bold" : "text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+            <KeyRound size={14} className="text-blue-600" />
+            <span className="font-bold">Paytm Gateway</span>
+          </button>
+
+          <button
             onClick={() => setActiveAdminTab("transactions")}
             className={`w-full text-left px-4 py-3 rounded-xl font-medium text-xs tracking-wide uppercase transition-colors flex items-center space-x-3 cursor-pointer flex-shrink-0 ${
               activeAdminTab === "transactions" ? "bg-orange-50 text-brand-orange font-bold" : "text-slate-600 hover:bg-slate-50"
@@ -485,7 +513,7 @@ export default function AdminPanel({
                   <input 
                     type="text"
                     className="w-full bg-slate-50 border border-slate-200 focus:border-brand-orange rounded-xl px-4 py-3 text-sm focus:outline-none font-mono"
-                    placeholder="e.g., 8319692429@paytm"
+                    placeholder="e.g., paytm-83967280@ptybl"
                     value={upiId}
                     onChange={(e)=>setUpiId(e.target.value)}
                   />
@@ -495,7 +523,7 @@ export default function AdminPanel({
                   <input 
                     type="text"
                     className="w-full bg-slate-50 border border-slate-200 focus:border-brand-orange rounded-xl px-4 py-3 text-sm focus:outline-none"
-                    placeholder="e.g., Praveen Rajesh Purohit"
+                    placeholder="e.g., N.Singh"
                     value={upiName}
                     onChange={(e)=>setUpiName(e.target.value)}
                   />
@@ -1343,47 +1371,136 @@ export default function AdminPanel({
             </div>
           )}
 
-          {/* TAB 7: TRANSACTIONS LIST BOARD PANEL */}
-          {activeAdminTab === "transactions" && (
+          {/* TAB 7: PAYTM GATEWAY CREDENTIALS AND SETTINGS PANEL */}
+          {activeAdminTab === "paytm" && (
             <div className="space-y-6 text-left animate-fadeIn">
               <h3 className="font-display font-black text-slate-800 text-lg border-b border-slate-50 pb-3 flex items-center gap-1.5">
-                <ShieldCheck className="text-brand-orange" size={18} />
-                <span>Simulated Paytm Transaction Audits</span>
+                <KeyRound className="text-blue-600" size={18} />
+                <span>Configure & Add Paytm Payment Gateway</span>
               </h3>
 
               {/* Paytm API gateway credential context info card inside transactions manager */}
-              <div className="bg-slate-50 border border-slate-100/70 rounded-2xl p-5 space-y-4 shadow-xs">
-                <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
-                  <h4 className="font-display font-bold text-slate-800 text-sm flex items-center gap-2">
-                    <span className="w-2.5 h-2.5 rounded-full bg-blue-600 animate-pulse"></span>
-                    <span>Paytm Integration Credential Parameters</span>
-                  </h4>
-                  <span className="text-[10px] font-extrabold uppercase tracking-widest text-[#002e6e] bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-lg w-max">ACTIVE (SECURE SANDBOX)</span>
+              <div className="bg-slate-50 border border-slate-150 rounded-2xl p-6 space-y-5 shadow-xs">
+                <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3">
+                  <div className="space-y-0.5">
+                    <h4 className="font-display font-bold text-slate-800 text-sm flex items-center gap-2">
+                      <span className={`w-2.5 h-2.5 rounded-full ${paytmGatewayState === "active" ? "bg-emerald-500 animate-pulse" : "bg-slate-400"}`}></span>
+                      <span>Configure Paytm Gateway API Parameters</span>
+                    </h4>
+                    <p className="text-[10px] text-slate-400 font-sans">Enter production or sandbox Merchant details to receive automated donor receipt webhooks.</p>
+                  </div>
+                  
+                  {/* Gateway Toggle Switch */}
+                  <div className="flex items-center gap-1.5 bg-white border border-slate-200 p-1 rounded-xl shrink-0">
+                    <button
+                      type="button"
+                      onClick={() => setPaytmGatewayState("active")}
+                      className={`px-3 py-1.5 text-[10px] font-extrabold rounded-lg transition-all cursor-pointer ${paytmGatewayState === "active" ? "bg-emerald-500 text-white shadow-xs" : "text-slate-500 hover:bg-slate-50"}`}
+                    >
+                      GATEWAY ON
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPaytmGatewayState("inactive")}
+                      className={`px-3 py-1.5 text-[10px] font-extrabold rounded-lg transition-all cursor-pointer ${paytmGatewayState === "inactive" ? "bg-red-500 text-white shadow-xs" : "text-slate-500 hover:bg-slate-50"}`}
+                    >
+                      DISABLED
+                    </button>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs">
                   <div className="space-y-1">
                     <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider">Paytm Merchant ID (MID)</span>
                     <input 
                       type="text" 
-                      readOnly 
-                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-600 focus:outline-none cursor-not-allowed shadow-inner" 
-                      value="zEGDie39558786797357" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="e.g., zEGDie39558786797357"
+                      value={paytmMerchantId}
+                      onChange={(e) => setPaytmMerchantId(e.target.value)}
                     />
                   </div>
                   <div className="space-y-1">
                     <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider">Paytm Secret Merchant Key (MKEY)</span>
                     <input 
                       type="password" 
-                      readOnly 
-                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-600 focus:outline-none cursor-not-allowed shadow-inner" 
-                      value="MKEY_SECRET_SHIELDED_SESSION" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="Enter Paytm Secret Merchant MKEY"
+                      value={paytmMerchantKey}
+                      onChange={(e) => setPaytmMerchantKey(e.target.value)}
                     />
                   </div>
+                  <div className="space-y-1">
+                    <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider">Paytm Website parameter</span>
+                    <input 
+                      type="text" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="e.g., DEFAULT"
+                      value={paytmWebsite}
+                      onChange={(e) => setPaytmWebsite(e.target.value)}
+                    />
+                  </div>
+                  <div className="space-y-1">
+                    <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider">Paytm Industry Type</span>
+                    <input 
+                      type="text" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="e.g., Retail"
+                      value={paytmIndustryType}
+                      onChange={(e) => setPaytmIndustryType(e.target.value)}
+                    />
+                  </div>
+                  <div className="space-y-1">
+                    <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider">Paytm Channel ID</span>
+                    <input 
+                      type="text" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="e.g., WEB"
+                      value={paytmChannelId}
+                      onChange={(e) => setPaytmChannelId(e.target.value)}
+                    />
+                  </div>
+                  <div className="space-y-1 md:col-span-2 lg:col-span-3">
+                    <span className="text-slate-500 text-[10px] uppercase font-bold tracking-wider block">Direct Paytm Payment Gateway Link (Optional)</span>
+                    <input 
+                      type="url" 
+                      className="w-full bg-white border border-slate-200 px-3.5 py-2.5 rounded-xl font-mono text-[11px] text-slate-700 focus:border-brand-orange focus:outline-none shadow-inner" 
+                      placeholder="e.g., https://paytm.me/xx-xxxx, or upi://pay link to override default parameters"
+                      value={paytmPaymentLink}
+                      onChange={(e) => setPaytmPaymentLink(e.target.value)}
+                    />
+                    <p className="text-[9.5px] text-slate-400 mt-1">If configured, this link will be presented directly to donors as a click-to-pay button for faster checkouts without scanning.</p>
+                  </div>
+                  <div className="space-y-1 flex items-end">
+                    <button
+                      type="button"
+                      onClick={triggerConfigSave}
+                      className="w-full bg-[#002e6e] hover:bg-[#001d4a] text-white font-extrabold text-xs px-4 py-3 rounded-xl cursor-pointer shadow-sm transition-colors uppercase tracking-wider flex items-center justify-center gap-1.5"
+                    >
+                      <Save size={13} />
+                      <span>Save Paytm Credentials</span>
+                    </button>
+                  </div>
                 </div>
+                {savesLog && (
+                  <p className="text-[10px] text-emerald-700 font-extrabold bg-emerald-50 px-3 py-1.5 rounded-lg w-max animate-pulse">
+                    {savesLog}
+                  </p>
+                )}
                 <p className="text-[10px] text-slate-400 leading-relaxed font-sans max-w-2xl font-medium">
-                  We register and protect checkout signatures using the environment keys set during startup. Standard Paytm settlement rules feed statistics live into the Ek Roti home counters automatically.
+                  We secure and validate checkout signatures using these custom parameters dynamically during initial Paytm Handshake cycles.
                 </p>
               </div>
+            </div>
+          )}
+
+          {/* TAB 8: TRANSACTIONS LIST BOARD PANEL */}
+          {activeAdminTab === "transactions" && (
+            <div className="space-y-6 text-left animate-fadeIn">
+              <h3 className="font-display font-black text-slate-800 text-lg border-b border-slate-50 pb-3 flex items-center gap-1.5">
+                <ShieldCheck className="text-brand-orange" size={18} />
+                <span>Simulated Paytm Transaction Audits & History</span>
+              </h3>
 
               <div className="max-h-[500px] overflow-y-auto border border-slate-100 rounded-2xl divide-y divide-slate-100 font-sans text-xs">
                 {transactions.length > 0 ? (

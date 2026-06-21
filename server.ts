@@ -148,7 +148,9 @@ async function startServer() {
   app.post("/api/admin/config", (req, res) => {
     const { 
       headline, subheading, phone, email, address, upiId, upiName, customQrImage,
-      heroImage, introImage, aboutImage, teamImage1, teamImage2, teamImage3, teamImage4 
+      heroImage, introImage, aboutImage, teamImage1, teamImage2, teamImage3, teamImage4,
+      paytmMerchantId, paytmMerchantKey, paytmWebsite, paytmIndustryType, paytmChannelId, paytmGatewayState,
+      paytmPaymentLink
     } = req.body;
     if (headline && subheading && phone && email && address) {
       db.config = { 
@@ -166,7 +168,14 @@ async function startServer() {
         teamImage1: teamImage1 !== undefined ? teamImage1 : (db.config.teamImage1 || ""),
         teamImage2: teamImage2 !== undefined ? teamImage2 : (db.config.teamImage2 || ""),
         teamImage3: teamImage3 !== undefined ? teamImage3 : (db.config.teamImage3 || ""),
-        teamImage4: teamImage4 !== undefined ? teamImage4 : (db.config.teamImage4 || "")
+        teamImage4: teamImage4 !== undefined ? teamImage4 : (db.config.teamImage4 || ""),
+        paytmMerchantId: paytmMerchantId !== undefined ? paytmMerchantId : (db.config.paytmMerchantId || ""),
+        paytmMerchantKey: paytmMerchantKey !== undefined ? paytmMerchantKey : (db.config.paytmMerchantKey || ""),
+        paytmWebsite: paytmWebsite !== undefined ? paytmWebsite : (db.config.paytmWebsite || ""),
+        paytmIndustryType: paytmIndustryType !== undefined ? paytmIndustryType : (db.config.paytmIndustryType || ""),
+        paytmChannelId: paytmChannelId !== undefined ? paytmChannelId : (db.config.paytmChannelId || ""),
+        paytmGatewayState: paytmGatewayState !== undefined ? paytmGatewayState : (db.config.paytmGatewayState || "active"),
+        paytmPaymentLink: paytmPaymentLink !== undefined ? paytmPaymentLink : (db.config.paytmPaymentLink || "")
       };
       saveDatabase(db);
       res.json({ status: "success", config: db.config });
@@ -384,11 +393,16 @@ async function startServer() {
       return res.status(400).json({ error: "A valid positive donation amount is required." });
     }
 
-    // Retrieve keys from environment with secure fallbacks
-    const MID = process.env.PAYTM_MERCHANT_ID || "zEGDie39558786797357";
-    const WEBSITE = process.env.PAYTM_WEBSITE || "DEFAULT";
-    const CHANNEL_ID = process.env.PAYTM_CHANNEL_ID || "WEB";
-    const INDUSTRY_TYPE_ID = process.env.PAYTM_INDUSTRY_TYPE || "Retail";
+    // Check if Paytm payment gateway is marked as inactive
+    if (db.config.paytmGatewayState === "inactive") {
+      return res.status(400).json({ error: "The Paytm Payment Gateway is currently disabled/inactive by the Administrator." });
+    }
+
+    // Retrieve keys from database configuration, falling back to env/hardcoded values
+    const MID = db.config.paytmMerchantId || process.env.PAYTM_MERCHANT_ID || "zEGDie39558786797357";
+    const WEBSITE = db.config.paytmWebsite || process.env.PAYTM_WEBSITE || "DEFAULT";
+    const CHANNEL_ID = db.config.paytmChannelId || process.env.PAYTM_CHANNEL_ID || "WEB";
+    const INDUSTRY_TYPE_ID = db.config.paytmIndustryType || process.env.PAYTM_INDUSTRY_TYPE || "Retail";
     
     // Simulate generation of checksum securely on server
     const orderId = "ROTIPAY_" + Math.floor(Math.random() * 100000000);

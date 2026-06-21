@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Check, ShieldAlert, Heart, Wallet, CreditCard, Sparkles, Building2, Download, AlertCircle, RefreshCw, Volume2, VolumeX, Play, QrCode, Copy } from "lucide-react";
+import { Check, ShieldAlert, Heart, Wallet, CreditCard, Sparkles, Building2, Download, AlertCircle, RefreshCw, Volume2, VolumeX, Play, QrCode, Copy, ExternalLink } from "lucide-react";
 import { SiteConfig, DonationTier } from "../types";
 
 interface DonateProps {
@@ -491,13 +491,30 @@ export default function Donate({ config, donationTiers, selectedDonationAmount, 
                         type="button"
                         onClick={() => {
                           const upiPayload = `upi://pay?pa=${config?.upiId || "paytm-83967280@ptybl"}&pn=${encodeURIComponent(config?.upiName || "N.Singh")}&am=${getActiveAmount()}&cu=INR&tn=EkRotiDonation`;
-                          navigator.clipboard.writeText(upiPayload);
-                          alert("Payment URI copied! You can paste this in any UPI app.");
+                          if (config?.paytmPaymentLink) {
+                            window.open(config.paytmPaymentLink, "_blank");
+                          } else {
+                            // Try launching the deep link directly for mobile users
+                            window.location.href = upiPayload;
+                          }
                         }}
-                        className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 text-xs font-black px-4 py-3 rounded-xl cursor-pointer transition-colors flex items-center justify-center gap-1.5"
+                        className="bg-[#00baf2] hover:bg-[#0099c7] text-white text-xs font-black px-4 py-3 rounded-xl cursor-pointer transition-colors flex items-center justify-center gap-1.5 flex-1"
+                      >
+                        <ExternalLink size={13} />
+                        <span>{config?.paytmPaymentLink ? "Pay via Paytm Link" : "Pay via Paytm App"}</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const upiPayload = `upi://pay?pa=${config?.upiId || "paytm-83967280@ptybl"}&pn=${encodeURIComponent(config?.upiName || "N.Singh")}&am=${getActiveAmount()}&cu=INR&tn=EkRotiDonation`;
+                          navigator.clipboard.writeText(config?.paytmPaymentLink || upiPayload);
+                          alert(config?.paytmPaymentLink ? "Paytm payment link copied to clipboard!" : "UPI payment payload copied to clipboard!");
+                        }}
+                        className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 text-xs font-black p-3 rounded-xl cursor-pointer transition-colors flex items-center justify-center gap-1"
+                        title="Copy payment link info"
                       >
                         <Copy size={13} />
-                        <span>Copy Link</span>
                       </button>
                     </div>
                   </div>
@@ -732,7 +749,7 @@ export default function Donate({ config, donationTiers, selectedDonationAmount, 
 
                     <div className="relative inline-block bg-white p-3.5 rounded-2xl border border-slate-200/60 shadow-sm mx-auto group">
                       <img 
-                        src={config?.customQrImage || `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(`upi://pay?pa=${config?.upiId || "8319692429@paytm"}&pn=${encodeURIComponent(config?.upiName || "Praveen Rajesh Purohit")}&am=${checkoutParams.amount}&cu=INR&tn=Donation_Ref_${checkoutParams.orderId}`)}`}
+                        src={config?.customQrImage || `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(`upi://pay?pa=${config?.upiId || "paytm-83967280@ptybl"}&pn=${encodeURIComponent(config?.upiName || "N.Singh")}&am=${checkoutParams.amount}&cu=INR&tn=Donation_Ref_${checkoutParams.orderId}`)}`}
                         alt="Paytm Dynamic UPI QR Code"
                         referrerPolicy="no-referrer"
                         className="w-[150px] h-[150px] object-contain mx-auto"
@@ -741,7 +758,7 @@ export default function Donate({ config, donationTiers, selectedDonationAmount, 
                         <div 
                           className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-white/95 rounded-2xl p-4 text-center cursor-pointer"
                           onClick={() => {
-                            const upiPayload = `upi://pay?pa=${config?.upiId || "8319692429@paytm"}&pn=${encodeURIComponent(config?.upiName || "Praveen Rajesh Purohit")}&am=${checkoutParams.amount}&cu=INR&tn=Donation_Ref_${checkoutParams.orderId}`;
+                            const upiPayload = `upi://pay?pa=${config?.upiId || "paytm-83967280@ptybl"}&pn=${encodeURIComponent(config?.upiName || "N.Singh")}&am=${checkoutParams.amount}&cu=INR&tn=Donation_Ref_${checkoutParams.orderId}`;
                             navigator.clipboard.writeText(upiPayload);
                             alert("UPI Payment link copied to clipboard!");
                           }}

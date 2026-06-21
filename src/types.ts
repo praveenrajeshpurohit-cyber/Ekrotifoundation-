@@ -73,4 +73,11 @@ export interface SiteConfig {
   teamImage2?: string;
   teamImage3?: string;
   teamImage4?: string;
+  paytmMerchantId?: string;
+  paytmMerchantKey?: string;
+  paytmWebsite?: string;
+  paytmIndustryType?: string;
+  paytmChannelId?: string;
+  paytmGatewayState?: "active" | "inactive";
+  paytmPaymentLink?: string;
 }
